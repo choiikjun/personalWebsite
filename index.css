@@ -1,0 +1,180 @@
+html, body, h1, h2, p, ol, ul, li, a, p, div, span, img, section {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Avenir Roman", Helvetica, sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+section {
+	padding: 40px 0;
+}
+
+#navigation {
+	padding: 0; 
+	background-color: #1a1a1a;
+	color: white;
+	line-height: 80px;
+	vertical-align: middle;
+}
+
+.top-header {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo, .logo-name, .header-nav {
+	float: left;
+}
+
+.header-nav .nav {
+	list-style-type: none;
+}
+
+.header-nav .nav li{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+}
+
+.header-nav .nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.logo img{
+	width: 80px;
+	height: 80px;
+	display: block;
+}
+
+.stageWrapper {
+	width: 890px;
+	height: 500px;
+	
+	margin: 0 auto;
+	background-color: #1a1a1a;
+
+	position: relative;
+}
+
+.close-modal-window {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pageLifter {
+	height: 45px;
+	width: 27px;
+	margin-top: -22px;
+
+	position: absolute;
+	top: 50%;
+
+	display: block;
+
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	color:white;
+}
+
+.pageLifter.prev {
+	left: 20px;
+}
+
+.pageLifter.next {
+	right: 20px;
+}
+
+img {
+	width:890px;
+	height:500px;
+}
+
+#introduction {
+	text-align: center;
+	background-color: #D8D8D8;
+}
+
+#introduction h1 {
+	margin-bottom: 45px;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+#introduction .text-wrapper {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 140%;
+}
+
+.career-image-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.career-image-wrapper .image-column {
+	width: 33%;
+	float: left;
+}
+
+.career-image-wrapper .image-sec {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 95%;
+	height: 400px;
+	float: left;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.career-image-wrapper .first-image,
+ {
+	background-image: url('img/PI-1.jpg');
+}
+
+.career-image-wrapper .second-image {
+	background-image: url('img/PI-2.jpg');
+}
+
+.career-image-wrapper .third-image {
+	background-image: url('img/PI-4.jpg');
+}
+
+.career-image-wrapper .image-detail {
+
+}
+
+/* Modal window for CAREER Section*/
+
+.modal-window {
+	width: 800px;
+	height: 500px;
+}
+
+.modal-window-1{
+
+}
+
+.modal-window-2{
+
+}
+
+.modal-window-3{
+
+}
